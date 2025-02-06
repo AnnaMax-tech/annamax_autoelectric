@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Autoelektrikmeister</title>
+
+    <meta name="description" content="Комп’ютерна діагностика електронних систем авто – точність і швидкість виявлення несправностей.">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/vars.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="icon" href="./img/free-icon-automotive-3577867.png" type="image/png">
+    
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "p1khf5udp8");
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1823804461483109');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1823804461483109&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
+
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script>
+            // Ініціалізація Email.js
+            document.addEventListener("DOMContentLoaded", () => {
+                emailjs.init("izUn8c8DGbhnXBEc8"); // Замініть "YOUR_USER_ID" на свій User ID із EmailJS
+            });
+        </script>
+</head>
+<body>
+
+    
+
+    <div class="return__btn hidden">
+        <img class="icon-button-arrow-1" src="./img/icon-button-arrow-10.svg" />
+    </div>
+    
+    <div class="wrapper">
+        
+        
+        <header class="header">
+
+            <div id="google_translate_element" ></div>
+
+            <div class="header-logo">
+
+                    <div class="header-logo__text">
+                        <p>Autoelektrikmeister</p>
+                    </div>
+
+                    <div class="header-logo__img">
+                        <img src="./img/autoelektrikmeister.png"  alt="" srcset="">
+                    </div>
+
+            </div>
+
+            <div class="header-action">
+
+                <div class="header-action__text">
+                    <a href="#">
+                        <span data-translate="tel" >Tel: </span>
+                        +43 660 2430111
+                    </a>
+                    <a href="#">
+                        <span data-translate="email">Email: </span>
+                        info.autodienst.at@gmail.com
+                    </a>
+                </div>
+
+                <a href="#footer" data-goto=".footer" data-translate="сontacts" class="header-action__btn">Контакти</a>
+
+            </div>
+
+            <div class="header-schedule">
+
+                <div class="header-schedule__work">
+                    <p data-translate="schedule__work" class="color-accent">Пн-Пт</p>
+                    <p>09:00-18:00</p>
+                </div>
+
+                <div class="header-schedule__weekend">
+                    <p data-translate="schedule__weekend" class="color-accent">Сб-Нд</p>
+                    <p>10:00-17:00</p>
+                </div>
+                
+            </div>
+
+            <div class="header-location">
+
+                <div class="header-location__ico">
+                    <a href="https://maps.app.goo.gl/p5CQKfQWXQA7NsNB6" target="_blank">
+                        <img src="img/map.svg"  alt="" srcset="">
+                    </a>                    
+                </div>
+
+                <address class="header-location__text">
+                    <p data-translate="address" class="color-accent">Адреса</p>
+                    <p>
+                        <p data-translate="address-build-deu">Laßnitzthal 301, </p>
+                        <p data-translate="address-city-deu">8200 Gleisdorf OT Laßnitzthal, </p>
+                        <p data-translate="address-country-deu">Австрия</p>
+                    </p>
+                </address>
+
+                <div class="header-location__ico">
+                    <a href="https://maps.app.goo.gl/nGgTH4DLFSS8Yuat8" target="_blank">
+                        <img src="img/map.svg"  alt="" srcset="">
+                    </a>                    
+                </div>
+
+                <address class="header-location__text">
+                    <p data-translate="address" class="color-accent">Адреса</p>
+                    <p>
+                        <p data-translate="address-city-ukr">Полтава,</p>
+                        <p data-translate="address-build-ukr">вул. Кагамлика 76А</p>                        
+                        <p data-translate="address-country-ukr">Україна</p>
+                    </p>
+                </address>
+            </div>
+
+            <div class="buttons">
+
+                <div class="div">
+                    <div class="language">
+                        <div class="current-language">Ukr</div>
+                        <img class="arrow-down" src="./img/arrow-down0.svg" />
+                        <div class="language-options">
+                            <div data-lang="uk" data-translate="ukr">Ukr</div>
+                            <div data-lang="de" data-translate="deu">Deu</div>
+                            <div data-lang="en" data-translate="eng">Eng</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setting">
+                    <!-- <img class="icon-setting" src="./img/setting.svg" /> -->
+                    <div class="current-language">Ukr</div>
+                    <div class="language-options-mob">
+                        <div data-lang="uk" data-translate="uk">Uk</div>
+                        <div data-lang="en" data-translate="en">En</div>
+                        <div data-lang="de" data-translate="de">De</div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="main">
+
+            <section class="about">
+
+                <h1 data-translate="about-title" class="about-title">
+                    Autoelektrikmeister
+                </h1>
+
+                <div class="about-content">
+                    <p data-translate="about-content__text" class="about-content__text">
+                        Ремонт електросистем з гарантією – довірте своє авто професіоналам з гарантією на виконані роботи.   
+                    </p>
+                </div>
+
+                 <!-- Slider main container -->
+                <div class="slider-box">
+                    <div class="body-main-block__slider slider-main-block swiper">
+
+                        <!-- Additional required wrapper -->
+                        <div class="slider-main-block__wrapper swiper-wrapper">
+    
+                            <!-- Slides -->
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/test_laptop_8633.jpg" alt="">
+                            </div>
+    
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/lamp.jpg" alt="">
+                            </div>
+    
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/acustic_2.jpg" alt="">
+                            </div>
+    
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/test_laptop_8696.PNG" alt="">
+                            </div>
+    
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/test_laptop_8632.jpg" alt="">
+                            </div>
+    
+                            <div class="slider-main-block__slide swiper-slide">
+                                <img class="slide-image" src="img/imgs/test.jpg" alt="">
+                            </div>
+    
+                        </div>
+
+                    </div>
+    
+                    <div class="slider-main-block__arrows">
+    
+                        <div class="slider-main-block__arrow swiper-button-prev"></div>
+                        <div class="slider-main-block__arrow swiper-button-next"></div>
+    
+                    </div>
+                </div>                
+
+                <div class="about__action">
+                    <a href="#footer" data-goto=".footer" data-translate="details"  class="header-action__btn">Докладніше</a>
+                </div>
+
+                <div class="about-content2">
+
+                    <h2></h2>
+
+                    <div class="about-content2__body">
+
+                        <div class="about-content2__body-text">
+
+                            <p> 
+                                <span data-translate="about-content2__body-text1" >Детейлінг центр “Autoelektrikmeister” - </span> 
+                                <spanp data-translate="about-content2__body-text2">
+                                    лідер у сфері ремонтних та детейлінгових послуг для вашого авто. Наші професіонали надають детальну консультацію по догляду за автомобілем та усунення естетичних недоліків. Досвідчені майстри допомагають підтримувати технічну та візуальну складову авто наших клієнтів у відмінному стані не тільки зовнішньо, але й внутрішньо.
+                                </spanp> 
+                            </p>
+
+                            <p data-translate="about-content2__body-text3">Чому обирають саме нашу студію? Ми віримо в якісний догляд за вашим авто! Захоплення автомобілями для нас — це не просто робота, а справжня пристрасть, тому ми досконало знаємо, як забезпечити найкращий сервіс. Дотримання термінів — наш пріоритет, і завдяки системі попереднього запису ви завжди отримуєте своє авто вчасно. Ми приділяємо увагу кожній дрібниці, викладаємося на всі 110% і робимо все, щоб ваш автомобіль виглядав бездоганно.</p>
+
+                        </div>
+
+                        <div class="about-content2__body-img">
+                            
+                            <div class="body-main-block__slider slider-main-block2 swiper">
+
+                               
+                                <div class="slider-main-block__wrapper swiper-wrapper">
+            
+                                    
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/acustic.jpg" alt="">
+                                    </div>
+            
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/auto_electro_2.jpg" alt="">
+                                    </div>
+            
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/test_laptop_8633.jpg" alt="">
+                                    </div>
+            
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/test_laptop_8696.PNG" alt="">
+                                    </div>
+            
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/auto_electro_8612.PNG" alt="">
+                                    </div>
+            
+                                    <div class="slider-main-block__slide swiper-slide">
+                                        <img class="slide-image" src="img/imgs/auto_electro.jpg" alt="">
+                                    </div>
+            
+                                </div>
+
+                                <div class="slider-main-block__arrows">
+            
+                                    <div class="slider-main-block__arrow swiper-button-prev"></div>
+                                    <div class="slider-main-block__arrow swiper-button-next"></div>
+                
+                                </div>
+        
+                            </div>           
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="about-content3">
+
+                    <div class="about__action">
+                        <a href="#footer" data-goto=".footer" data-translate="details" class="header-action__btn">Докладніше</a>
+                    </div>
+                    
+
+                    <p data-translate="achievements" class="about-content2__text">
+                        Наші досягнення   
+                    </p>
+  
+                    <div class="running-numbers anim_items">
+                        <div class="age">
+                            <h2 data-translate="running-numbers1">Реалізованих проектів</h2>
+                            <span data-digits-counter class="page__counter">14249</span>
+                        </div>
+                        
+                        <div class="proyects">
+                            <h2 data-translate="running-numbers2">Задоволених клієнтів</h2>
+                            <span data-digits-counter class="page__counter">50472</span>
+                        </div>
+                        
+                        <div class="brothers">
+                            <h2 data-translate="running-numbers3">Кількість студій</h2>
+                            <span data-digits-counter class="page__counter">4</span>
+                        </div>
+
+                        <div class="brothers">
+                            <h2 data-translate="running-numbers4">Кількість повних тестувань</h2>
+                            <span data-digits-counter class="page__counter">6874</span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+
+            </section>
+
+            <section class="services">
+
+                <h2 data-translate="services-title" class="services-title">
+                    Наші послуги
+                </h2>
+
+                <div class="services-content">
+
+                    <div class="services-content__item">
+
+                        <h2 data-translate="services-content__item-title-1" class="services-content__item-title">
+                            Діагностика та ремонт авто
+                        </h2>
+
+                        <div class="services-content__item-box">
+
+                            <ul class="services-content__item-list">
+
+                                <li data-translate="services-content__item-1">
+                                    діагностика ходової
+                                </li>
+
+                                <li data-translate="services-content__item-2">
+                                    комп'ютерна діагностика
+                                </li>
+
+                                <li data-translate="services-content__item-3">
+                                    ремонт рулевої
+                                </li>
+
+                                <li data-translate="services-content__item-4">
+                                    ремонт газової установки
+                                </li>
+
+                                <li data-translate="services-content__item-5">
+                                    ремонт тормозної системи
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <a href="#popup" data-translate="details" class="popup-link header-action__btn">Детальніше</a>
+
+                    </div>
+
+                    <div class="services-content__item">
+
+                        <h2 data-translate="services-content__item-title-2" class="services-content__item-title">
+                            Технічне обслуговування авто
+                        </h2>
+
+                        <div class="services-content__item-box">
+
+                            <ul class="services-content__item-list">
+
+                                <li data-translate="services-content__item-6">
+                                     заправка кондиціонерів
+                                </li>
+
+                                <li data-translate="services-content__item-7">
+                                     заміна тормозної рідини
+                                </li>
+
+                                <li data-translate="services-content__item-8">
+                                     ремонт глушителя
+                                </li>
+
+                                <li data-translate="services-content__item-9">
+                                     заміна ламп
+                                </li>
+
+                                <li data-translate="services-content__item-10">
+                                     чистка кондиціонера
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <a href="#popup" data-translate="details" class="popup-link header-action__btn">Детальніше</a>
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <section class="why-choose-us">
+
+                <h2 data-translate="why-choose-us">Чому обирають саме нас?</h2>
+
+                <ul class="why-choose-us__cards">
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+
+                            <img src="img/marker2.jpg" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="why-choose-us-text-1">
+                                Зручне місцезнаходження
+                            </span>
+                        </p>
+
+                    </li>
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+
+                            <img src="img/road_image.webp" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="why-choose-us-text-2">
+                                Безкоштовна доставка авто. Якщо у Вас немає можлтвості чекати, ми Вам привеземо авто.
+                            </span>                            
+                        </p>
+
+                    </li>
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+
+                            <img src="img/auto1.jpg" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="why-choose-us-text-3">
+                                Гарантуємо високу якість
+                            </span> 
+                        </p>
+
+                    </li>
+
+                </ul>
+            </section>
+            
+            <section class="our__team why-choose-us ">
+
+                <div class="our__team-action">
+                    <a href="#footer" data-goto=".footer" data-translate="details" class="header-action__btn">Детальніше</a>
+                </div>
+
+                
+
+                <h2 data-translate="our-craftsmen">Наші майстри</h2>
+
+                <ul class="why-choose-us__cards">
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+                            <img src="img/faces/auto_master_4.jpg" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="craftsman-1">
+                                Шевченко Олександр Вікторович
+                            </span>
+                        </p>
+
+                    </li>
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+                            <img src="img/faces/auto_master_1.webp" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="craftsman-2">
+                                Коваленко Дмитро Петрович
+                            </span>
+                        </p>
+
+                    </li>
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+                            <img src="img/faces/auto_master_7.jpg" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="craftsman-3">
+                                Гончаренко Андрій Сергійович
+                            </span>
+                        </p>
+
+                    </li>
+
+                    <li class="why-choose-us__item">
+
+                        <div class="item__img">
+                            <img src="img/faces/auto_master_8.png" alt="">
+                        </div>
+
+                        <p class="item__text">
+                            <span data-translate="craftsman-4">
+                                Мельник Іван Олексійович
+                            </span>
+                        </p>
+
+                    </li>
+
+                </ul>
+            </section>
+
+            
+            <section class="reviews">
+
+                <h2 data-translate="reviews" class="reviews-title">Відгуки про нас</h2>
+
+                <h2 class="reviews-subtitle">
+
+                    <p> 4.9 </p>
+                    <div class="stars">
+                        <img src="img/star_icon.svg" alt="" class="star">
+                        <img src="img/star_icon.svg" alt="" class="star">
+                        <img src="img/star_icon.svg" alt="" class="star">
+                        <img src="img/star_icon.svg" alt="" class="star">
+                        <img src="img/star_icon.svg" alt="" class="star">
+                    </div>
+                    <p data-translate="reviews-subtitle-text"> 20 відгуків </p>
+                    
+                </h2>
+
+                <div class="reviews-body">
+
+                    <div class="reviews-body__item">
+
+                        <div class="reviews-body__item-img">
+                            <div data-translate="reviews-body__item-letter-1" class="img-box">P</div>
+                        </div>
+    
+                        <div class="reviews-body__item-text">
+
+                            <h2 class="reviews-subtitle">
+
+                                <div class="stars">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                </div>
+                                <p data-translate="period-1">1 рік тому</p>
+                                
+                            </h2>
+
+                            <p data-translate="reviews-body__item-text-1">
+                                РТ Нашу робочу Renault Zoe здавалося вже не врятувати :)) Але хлопці повернули їй максимально важливі життєві функції, і вона ще побігає.
+                            </p>
+                        </div>
+
+                    </div>  
+
+                    <div class="reviews-body__item">
+
+                        <div class="reviews-body__item-img">
+                            <div data-translate="reviews-body__item-letter-2" class="img-box">М</div>
+                        </div>
+    
+                        <div class="reviews-body__item-text">
+
+                            <h2 class="reviews-subtitle">
+
+                                <div class="stars">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                </div>
+                                <p data-translate="period-2">5 днів тому</p>
+                                
+                            </h2>
+
+                            <p data-translate="reviews-body__item-text-2">
+                                Михаил Молодці хлопці! Якість ремонту на найвищому рівні. Так тримати. Оригінальні запчастини Адекватні ціни. Рекомендую!
+                            </p>
+                        </div>
+
+                    </div>  
+
+                    <div class="reviews-body__item">
+
+                        <div class="reviews-body__item-img">
+                            <div data-translate="reviews-body__item-letter-3" class="img-box">А</div>
+                        </div>
+    
+                        <div class="reviews-body__item-text">
+
+                            <h2 class="reviews-subtitle">
+
+                                <div class="stars">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                </div>
+                                <p data-translate="period-3">6 місяців тому</p>
+                                
+                            </h2>
+
+                            <p data-translate="reviews-body__item-text-3">
+                                Александр Чудові хлопці, майстри своєї справи! Всім раджу
+                            </p>
+                        </div>
+
+                    </div>  
+
+                    <div class="reviews-body__item">
+
+                        <div class="reviews-body__item-img">
+                            <div data-translate="reviews-body__item-letter-4" class="img-box">С</div>
+                        </div>
+    
+                        <div class="reviews-body__item-text">
+
+                            <h2 class="reviews-subtitle">
+
+                                <div class="stars">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                    <img src="img/star_icon.svg" alt="" class="star">
+                                </div>
+                                <p data-translate="period-4">1 місяць тому</p>
+                                
+                            </h2>
+
+                            <p data-translate="reviews-body__item-text-4">
+                                Соломія Іванівна Обслуговуємся відносно недавно, але вже оцінили якість робіт - працюють професіонали своєї справи, рекомендую!
+                            </p>
+                        </div>
+
+                    </div>                    
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer id="footer" class="footer">
+
+                <div class="footer-block">
+
+                    <div class="header-logo">
+
+                        <div class="header-logo__text">
+                            <p>Autoelektrikmeister</p>
+                        </div>
+    
+                        <div class="header-logo__img">
+                            <img src="./img/autoelektrikmeister.png"  alt="" srcset="">
+                        </div>
+    
+                    </div>
+    
+                    <div class="header-action">
+    
+                        <div class="socials">
+
+                            <div class="header-location__ico">
+                                <a href="https://t.me/+436602430111?text=Autoelektrikmeister" target="_blank">
+                                    <img src="img/telegram_icon.svg"  alt="" srcset="">
+                                </a>                    
+                            </div>
+                            <div class="header-location__ico">
+                                <a href="viber://chat?number=%2B+436602430111?text=Autoelektrikmeister" target="_blank">
+                                    <img src="img/viber_icon.svg"  alt="" srcset="">
+                                </a>                    
+                            </div>
+                            <div class="header-location__ico">
+                                <a href="https://wa.me/+436602430111?text=Autoelektrikmeister" target="_blank">
+                                    <img src="img/whatsapp_icon.svg"  alt="" srcset="">
+                                </a>                    
+                            </div>
+                            
+                        </div>
+    
+                        <div class="header-action__text">
+                            <a href="#">
+                                <span data-translate="tel">Tel: </span>+43 660 2430111</a>
+                            <a href="#">
+                                <span data-translate="email">Email: </span>info.autodienst.at@gmail.com</a>
+                        </div>
+    
+                        <a href="#popup" data-translate="contact-us" class="popup-link header-action__btn anim_items">Зв'яжіться з нами</a>
+    
+                    </div>
+    
+                    <div class="header-schedule">
+    
+                        <div class="header-schedule__work">
+                            <p data-translate="schedule__work" class="color-accent">Пн-Пт</p>
+                            <p>09:00-18:00</p>
+                        </div>
+    
+                        <div class="header-schedule__weekend">
+                            <p data-translate="schedule__weekend" class="color-accent">Сб-Нд</p>
+                            <p>10:00-17:00</p>
+                        </div>
+                        
+                    </div>
+
+                </div>                
+
+                <div class="header-location">
+
+                    <div class="location__box">
+
+                        <div class="header-location__ico">
+                            <a href="https://maps.app.goo.gl/p5CQKfQWXQA7NsNB6" target="_blank">
+                                <img src="img/map.svg"  alt="" srcset="">
+                            </a>                    
+                        </div>
+        
+                        <address class="header-location__text">
+                            <p data-translate="address" class="color-accent">Адреса</p>
+                            <p>
+                                <p data-translate="address-build-deu">Laßnitzthal 301, </p>
+                                <p data-translate="address-city-deu">8200 Gleisdorf OT Laßnitzthal, </p>
+                                <p data-translate="address-country-deu">Австрия</p>
+                            </p>
+                        </address>
+
+                    </div>
+
+                    <div class="location__box">
+
+                        <div class="header-location__ico">
+                            <a href="https://maps.app.goo.gl/nGgTH4DLFSS8Yuat8" target="_blank">
+                                <img src="img/map.svg"  alt="" srcset="">
+                            </a>                    
+                        </div>
+        
+                        <address class="header-location__text">
+                            <p data-translate="address" class="color-accent">Адреса</p>
+                            <p>
+                                <p data-translate="address-city-ukr">Полтава,</p>
+                                <p data-translate="address-build-ukr">вул. Кагамлика 76А</p>                        
+                                <p data-translate="address-country-ukr">Україна</p>
+                            </p>
+                        </address>
+                    </div>
+
+                </div>   
+
+                <div class="privacy-policy">
+                    <a href="#popup3" class="popup-link">
+                        <p data-translate="privacy-policy">Privacy Policy</p>
+                    </a>
+                    <a href="#popup4" class="popup-link">
+                        <p data-translate="public-offer-agreement">Public Offer Agreement</p>
+                    </a>
+                </div>     
+
+                
+        </footer>
+
+
+    </div>
+
+
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close close-popup">X</a>
+                <div data-translate="contact-us" class="popup__title">Зв'яжіться з нами</div>
+                <div class="popup__form">
+                    <!-- <form id="form" class="full-form" action="telegram.php" method="post" enctype="text/plain" accept-charset="UTF-8"> -->
+                    <!-- <form class="full-form" action="mailto:info.autodienst.at@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8"> -->
+                    <form id="form" class="full-form" enctype="text/plain" accept-charset="UTF-8">
+                        <div class="form3">
+                        
+                            <input for="name" data-translate="your_name" placeholder="Ім’я" class="input __req" type="text"
+                                id="name" name="name"  required>
+    
+                            <input class="input __req" for="phone" data-translate="phone" placeholder="Телефон" type="tel"
+                                id="phone" name="phone"  required>
+    
+                            <input class="input __req" for="email" data-translate="email" placeholder="E-mail" type="email"
+                                id="email" name="email" required >
+    
+                            <input class="input" for="request" data-translate="your_request" placeholder="Ваш запит"
+                                id="request" name="request" rows="4" >
+
+                            <select class="input __req" for="select_type" name="select_type"  id="select_type"  required>
+                                <option data-translate="type_auto_empty" value="" disabled selected>Тип авто</option>
+                                <option data-translate="type_auto_1" value="Sedan">Седан</option>
+                                <option data-translate="type_auto_2" value="Crossover">Кросовер</option>
+                                <option data-translate="type_auto_3" value="SUV (Sport Utility Vehicle)">Внедорожник</option>
+                                <option data-translate="type_auto_4" value="Sports car">Спортивний автомобіль</option>
+                             </select>
+
+                            <select class="input __req" for="select_services" name="select_services"  id="select_services"  required>
+                                <option data-translate="select_services_empty" value="" disabled selected>Послуги</option>
+                                <option data-translate="select_services_1" value="діагностика_ходової">Діагностика ходової</option>
+                                <option data-translate="select_services_2" value="комп'ютерна_діагностика">Комп'ютерна діагностика</option>
+                                <option data-translate="select_services_3" value="ремонт_рулевої">Ремонт рулевої</option>
+                                <option data-translate="select_services_4" value="ремонт_газової_установки">Ремонт газової установки</option>
+                                <option data-translate="select_services_5" value="ремонт_тормозної_системи">Ремонт тормозної системи</option>
+                                <option data-translate="select_services_6" value="заправка_кондиціонерів">Заправка кондиціонерів</option>
+                                <option data-translate="select_services_7" value="заміна_тормозної_рідини">Заміна тормозної рідини</option>
+                                <option data-translate="select_services_8" value="ремонт_глушителя">Ремонт глушителя</option>
+                                <option data-translate="select_services_9" value="заміна_ламп">Заміна ламп</option>
+                                <option data-translate="select_services_10" value="чистка_кондиціонера">Чистка кондиціонера</option>
+                             </select>
+                        
+    
+                            <div class="confirmation">
+    
+                                <div class="checkbox-light">
+                                    <input type="checkbox" id="privacy" class="privacy __req" checked name="privacy" >
+                                    <div class="rect"></div>
+                                </div>
+    
+                                <label  for="privacy" class="privacy-policy">
+                                    <span data-translate="form_privacy_policy">
+                                        Я погоджуюсь на обробку моїх персональних даних відповідно до
+                                    </span>
+                                     <a href="#popup3" class="popup-link">
+                                        <p>Privacy Policy</p>
+                                    </a>
+                                </label>
+
+   
+                            </div>
+                            
+                            <div class="sendButton-box">
+                                <button id="sendButton" type="submit" class="button2">
+                                    <span data-translate="send">Надіслати</span>
+                                    <img src="./img/icon-button-arrow-11.svg" class="icon-button-arrow-12" alt="arrow">
+                                </button>
+                                <button id="resetButton" type="reset" class="button2">
+                                    <span data-translate="reset">Reset</span>
+                                    <img src="./img/icon-button-arrow-11.svg" class="icon-button-arrow-12" alt="arrow">
+                                </button>
+                            </div>
+
+
+    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+
+                <a href="#" class="popup__close close-popup">X</a>
+
+                <div class="popup-img">
+                    <img class="popup-img__item" src="" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+
+                <a href="#" class="popup__close close-popup">X</a>
+
+                <div class="popup-img">
+                    <p data-translate="privacy_policy_text" privacy_policy>T.M. Kolisnyk respektiert die Vertraulichkeit aller Personen, die unsere Website besuchen. Alle Ihre Daten werden gemäß den Anforderungen der geltenden ukrainischen Gesetzgebung erhoben, verarbeitet und verwendet.
+                        Wir sammeln Informationen über unsere Kunden nur zu dem Zweck, unsere Dienstleistungen zu erbringen, und ausschließlich dann, wenn Sie uns diese Informationen freiwillig zur Verfügung gestellt oder der Nutzung zugestimmt haben. Wir verpflichten uns, diese Informationen weder zu verwenden noch zu verarbeiten oder zu übermitteln, wenn dies über die Anforderungen der geltenden ukrainischen Gesetzgebung hinausgeht. Die Weitergabe personenbezogener Daten erfolgt ausschließlich auf der Grundlage einer gerichtlichen Anordnung oder in einer anderen, durch die geltende Gesetzgebung der Ukraine vorgeschriebenen Weise.
+                        Gespeicherte Daten werden aus der Datenbank des Einzelunternehmers T.M. Kolisnyk nach Ablauf der gesetzlich vorgeschriebenen Aufbewahrungsfrist oder wenn eine Speicherung nicht mehr erforderlich ist, gelöscht. Sie haben jederzeit das Recht, die Löschung Ihrer personenbezogenen Daten aus unserer Datenbank zu verlangen. Für diesen und alle weiteren Anliegen bezüglich Ihrer Daten wenden Sie sich bitte an unsere Verantwortlichen.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+
+                <a href="#" class="popup__close close-popup">X</a>
+
+                <div class="popup-img">
+                    <p data-translate="public_offer_agreement_text">**Öffentliches Angebot (Offerte)**
+
+                        **Allgemeine Bestimmungen**  
+                        1.1. Dieses Angebot ist ein offizielles Angebot der Einzelunternehmerin T.M. Kolisnyk, im Folgenden als „Verkäufer“ bezeichnet, einen Kaufvertrag über den Verkauf von Waren auf Distanz, also über einen Online-Shop, im Folgenden als „Vertrag“ bezeichnet, abzuschließen. Der Verkäufer veröffentlicht dieses öffentliche Angebot (Offerte) auf der offiziellen Website „…“ (im Folgenden „Website“).  
+                        1.2. Der Zeitpunkt der vollständigen und bedingungslosen Annahme des Angebots (Annahme) durch den Käufer zur elektronischen Abwicklung eines Kaufvertrags ist die Bezahlung der Bestellung durch den Käufer gemäß den Bedingungen dieses Vertrags, innerhalb der auf der Website des Verkäufers angegebenen Fristen und zu den Preisen.  
+                        
+                        **Begriffe und Definitionen**  
+                        2.1. In diesem Angebot haben die unten aufgeführten Begriffe, sofern der Kontext nichts anderes erfordert, die folgende Bedeutung:  
+                        * „Ware“ – Modelle, Zubehör, Ersatzteile und begleitende Artikel;  
+                        * „Online-Shop“ – gemäß dem Gesetz der Ukraine „Über den elektronischen Handel“ ein Mittel zur Präsentation oder zum Verkauf von Waren, Arbeiten oder Dienstleistungen durch Abschluss eines elektronischen Geschäfts;  
+                        * „Verkäufer“ – das Unternehmen, das die auf der Website präsentierten Waren verkauft;  
+                        * „Käufer“ – eine natürliche Person, die mit dem Verkäufer einen Vertrag zu den nachstehenden Bedingungen abgeschlossen hat;  
+                        * „Bestellung“ – die Auswahl einzelner Positionen aus der Warenliste, die der Käufer bei der Bestellung und Bezahlung angibt.  
+                        
+                        **Vertragsgegenstand**  
+                        3.1. Der Verkäufer verpflichtet sich, dem Käufer die Ware zu übergeben, und der Käufer verpflichtet sich, die Ware gemäß den Bedingungen dieses Vertrags zu bezahlen und anzunehmen. Dieser Vertrag regelt den Kauf und Verkauf von Waren im Online-Shop, einschließlich:  
+                        - der freiwilligen Auswahl von Waren durch den Käufer im Online-Shop;  
+                        - der eigenständigen Bestellung durch den Käufer im Online-Shop;  
+                        - der Bezahlung der vom Käufer im Online-Shop getätigten Bestellung;  
+                        - der Bearbeitung und Lieferung der Bestellung an den Käufer gemäß den Bedingungen dieses Vertrags.  
+                        
+                        **Bestellvorgang**  
+                        4.1. Der Käufer ist berechtigt, eine Bestellung für jede auf der Website des Online-Shops verfügbare Ware aufzugeben.  
+                        4.2. Jede Position kann in beliebiger Menge in der Bestellung angegeben werden.  
+                        4.3. Ist die Ware nicht auf Lager, ist der Manager des Unternehmens verpflichtet, den Käufer zu benachrichtigen (telefonisch oder per E-Mail).  
+                        4.4. Fehlt die Ware, ist der Käufer berechtigt, diese durch eine gleichwertige Ware zu ersetzen, vom Kauf dieser Ware zurückzutreten oder die Bestellung zu stornieren.  
+                        
+                        **Zahlungsverfahren für die Bestellung**  
+                        5.1. Die Zahlung erfolgt bei Erhalt der Ware in der Filiale der Transportfirma in bar in ukrainischen Griwna.  
+                        5.2. Die Zahlung kann per Überweisung auf das Konto des Einzelunternehmers erfolgen.  
+                        5.3. Die Zahlung kann mit Visa-, Mastercard- und anderen Karten sowie auf die Karte der PrivatBank erfolgen.  
+                        5.4. Gehen die Gelder nicht ein, behält sich der Online-Shop das Recht vor, die Bestellung zu stornieren.  
+                        
+                        **Lieferbedingungen der Bestellung**  
+                        6.1. Die Lieferung der im Online-Shop gekauften Waren erfolgt zu den Filialen der Transportfirmen, wo die Bestellungen ausgehändigt werden.  
+                        6.2. Zusammen mit der Bestellung erhält der Käufer die Unterlagen gemäß den gesetzlichen Bestimmungen der Ukraine.  
+                        
+                        **Rechte und Pflichten der Parteien**  
+                        7.1. Der Verkäufer ist berechtigt:  
+                        - die Erbringung von Dienstleistungen im Rahmen dieses Vertrags einseitig einzustellen, wenn der Käufer die Bedingungen dieses Vertrags verletzt.  
+                        7.2. Der Käufer ist verpflichtet:  
+                        - die Bestellung rechtzeitig zu bezahlen und entgegenzunehmen, gemäß den Bedingungen dieses Vertrags.  
+                        7.3. Der Käufer ist berechtigt:  
+                        - eine Bestellung im Online-Shop aufzugeben;  
+                        - einen elektronischen Vertrag abzuschließen;  
+                        - die Erfüllung der Bedingungen dieses Vertrags vom Verkäufer zu verlangen.  
+                        
+                        **Haftung der Parteien**  
+                        8.1. Die Parteien haften für die Nichterfüllung oder unsachgemäße Erfüllung der Bedingungen dieses Vertrags in der im Vertrag und der geltenden Gesetzgebung der Ukraine vorgesehenen Weise.  
+                        8.2. Der Verkäufer haftet nicht für:  
+                        - veränderte Optik der Ware durch den Hersteller;  
+                        - geringfügige Abweichungen der Farbskala der Ware, die ausschließlich auf die unterschiedliche Farbwiedergabe der Monitore verschiedener Computermodelle zurückzuführen sind;  
+                        - den Inhalt und die Richtigkeit der vom Käufer bei der Bestellung angegebenen Informationen;  
+                        - Verzögerungen und Unterbrechungen bei der Erbringung der Dienstleistungen (Bearbeitung der Bestellung und Lieferung der Ware), die außerhalb seines Einflussbereichs liegen;  
+                        - Preisänderungen der Ware nach der Bestellung, wenn sich der Preis aufgrund von Änderungen beim Lieferanten oder Wechselkursschwankungen ändert;  
+                        - rechtswidrige Handlungen des Käufers unter Verwendung seines Zugangs zum Internet;  
+                        - die Weitergabe von Netzwerkkennungen des Käufers (IP, MAC-Adresse, Login und Passwort) an Dritte.  
+                        8.3. Der Käufer ist bei Nutzung seines Zugangs zum Internet selbst für Schäden verantwortlich, die er durch sein eigenes Handeln (auch wenn eine andere Person unter seinem Login agierte) Dritten oder deren Eigentum, juristischen Personen, dem Staat oder den moralischen Prinzipien verursacht.  
+                        8.4. Im Falle höherer Gewalt sind die Parteien von der Erfüllung der Bedingungen dieses Vertrags befreit. Als höhere Gewalt gelten für diesen Vertrag unvorhergesehene, außergewöhnliche Ereignisse, die die Erfüllung des Vertrags objektiv verhindern und die von den Parteien nicht vorhersehbar und vermeidbar waren.  
+                        8.5. Die Parteien bemühen sich, alle Streitigkeiten ausschließlich durch Verhandlungen zu lösen.  
+                        
+                        **Sonstige Bestimmungen**  
+                        9.1. Der Online-Shop behält sich das Recht vor, diesen Vertrag einseitig zu ändern, vorausgesetzt, er wird im Voraus auf der Website veröffentlicht.  
+                        9.2. Der Online-Shop dient zur Organisation des Fernverkaufs von Waren über das Internet.  
+                        9.3. Der Käufer ist für die Richtigkeit der bei der Bestellung gemachten Angaben verantwortlich. Mit der Annahme (der Bestellung und Bezahlung der Ware) erteilt der Käufer dem Verkäufer sein uneingeschränktes Einverständnis zur Erhebung, Verarbeitung, Speicherung und Nutzung seiner personenbezogenen Daten gemäß dem Gesetz „Über den Schutz personenbezogener Daten“.  
+                        9.4. Die Bezahlung der Bestellung im Online-Shop bedeutet die vollständige Zustimmung des Käufers zu den Bedingungen des Kaufvertrags (öffentliche Offerte).  
+                        9.5. Das Datum des elektronischen Vertrags zwischen den Parteien ist das Datum der Annahme der Bedingungen gemäß Artikel 11 des Gesetzes der Ukraine „Über den elektronischen Handel“.  
+                        9.6. Die Nutzung des Online-Shop-Ressourcen für das Anschauen der Ware und das Aufgeben von Bestellungen ist für den Käufer kostenlos.  
+                        9.7. Die vom Käufer bereitgestellten Informationen sind vertraulich. Der Online-Shop nutzt die Informationen ausschließlich zur Bearbeitung der Bestellung, zur Benachrichtigung des Käufers, zur Lieferung der Ware, zur Abwicklung gegenseitiger Abrechnungen usw.  
+                        
+                        **Rückgabeverfahren für Waren ordnungsgemäßer Qualität**  
+                        10.1. Die Rückgabe der Ware an den Online-Shop erfolgt gemäß der geltenden Gesetzgebung der Ukraine.  
+                        10.2. Die Rückgabe der Ware an den Online-Shop erfolgt auf Kosten des Käufers.  
+                        10.3. Bei der Rückgabe der Ware in ordnungsgemäßem Zustand erstattet der Online-Shop dem Käufer den für die Ware gezahlten Betrag abzüglich der Kosten für die Lieferung der Ware an den Käufer.  
+                        
+                        **Gültigkeitsdauer des Vertrags**  
+                        11.1. Der elektronische Vertrag gilt als abgeschlossen, sobald die Person, die das Angebot unterbreitet hat, eine Annahme der Offerte gemäß Teil 6 des Artikels 11 des Gesetzes der Ukraine „Über den elektronischen Handel“ erhält.  
+                        11.2. Der Vertrag kann vor Ablauf der Gültigkeit im gegenseitigen Einvernehmen der Parteien, vor der tatsächlichen Lieferung der Ware, durch Rückerstattung der Geldbeträge aufgelöst werden.  
+                        11.3. Die Parteien sind berechtigt, den Vertrag einseitig zu kündigen, wenn eine der Parteien die Bedingungen dieses Vertrags nicht erfüllt oder in den gesetzlich vorgesehenen Fällen.  
+                        
+                        **Hinweis**: Der Online-Shop „…“ auf der offiziellen Website „…“ hat das Recht, gemäß der Gesetzgebung der Ukraine Einzelunternehmern und juristischen Personen die Nutzung der Internetplattform zum Verkauf von Waren zu gewähren.  
+                        
+                        **Adresse und Kontaktdaten**  
+                        Einzelunternehmerin T.M. Kolisnyk  
+                        Poltawa Region, Stadt Poltawa, Holovka-Straße 8  
+                        E-Mail: 4Annamax@gmail.com
+                        </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="script/scripts.js"></script>
+    
+</body>
+</html>
+
